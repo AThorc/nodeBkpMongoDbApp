@@ -13,7 +13,7 @@ Using mongorestore - without any args:
   will try to restore every database from "dump" folder in current directory, if "dump" folder does not exist then it will simply fail.
 */
 
-const DB_NAME = 'nodeJsDB';
+const DB_NAME = `nodeJsDB_${(new Date().toJSON().slice(0,10))}`
 const ARCHIVE_PATH = path.join(__dirname, 'public', `${DB_NAME}.gzip`);
 
 // 1. Cron expression for every 5 seconds - */5 * * * * *
