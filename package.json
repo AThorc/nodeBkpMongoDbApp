@@ -8,7 +8,7 @@
     "dev": "nodemon app.js"
   },
   "keywords": [],
-  "author": "Truly Mittal <trulymittal@gmail.com>",
+  "author": "Alessandro Torcetta",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.6"
